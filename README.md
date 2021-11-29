@@ -16,12 +16,12 @@ In particular, word2vecf DOES NOT handle vocabulary construction, and does not r
 
 ## Expected files
 
-- word_vocabulary:
+- `word_vocabulary`:
    file mapping words (strings) to their counts
-- context_vocabulary:
+- `context_vocabulary`:
    file mapping contexts (strings) to their counts
    used for constructing the sampling table for the negative training.
-- training_data:
+- `training_data`:
    Textual file of word-context pairs.
    Each pair takes a seperate line.
    The format of a pair is `<word> <context>`, i.e. space delimited, where `<word>` and `<context>` are strings.
